@@ -1,0 +1,37 @@
+/*Creamos la animación*/
+@keyframes translate {
+    0% {
+      transform: translate(0);
+    }
+    90% {
+      transform: translate(50px, 5px);
+    }
+
+  }
+  
+  /*Usamos la animación*/
+  .translate {
+    animation: translate 2s ;
+  }
+
+
+  /*Creamos la animación*/
+@keyframes translateX {
+    0% {
+      transform: translateX(0);
+      background-color: antiquewhite;
+    }
+    50% {
+      background-color: pink;
+    }
+    100% {
+      transform: translateX(400px);
+      background-color: aquamarine;
+    }
+  }
+  
+  /*Usamos la animación*/
+  .translateX {
+    animation: translateX 4s infinite;
+    color: #282828;
+  }

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+:root {
+    /* bg colors */
+    --background: #02050e;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+    --btn-bg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+  
+    /* Text colors */
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+  
+    /* Decoration */
+    --fire: #ff6d00;
+    --electric: #64d3ff;
+}
+
+:root{
+    --background: #02050e;
+    --secondary: #272d37;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+
+
+/* Navbar propiedades  */
+header {
+    display: flex;
+    background-color:var(--secondary);
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    gap:25px;
+}
+
+/* menu hamburguesa */
+
+/* #menu-toggle{
+    display: none;
+}
+
+.menu-toggle{
+    display:none;
+    position: absolute;
+} */
+
+
+
+/* Seccion portada  */
+
+.portada_section{
+background-color:var(--btn-bg);
+display: flex;
+align-items: center;
+margin-left: 3 3 3 3 ;
+}
+
+.portada_section img{
+    border-radius:20px;
+}
+
+.portada_titulo{
+    padding:2% 2% 2% 2%;
+}
+
+
+.portada_titulo h1{
+    font-size: 300%;
+    display: flex;
+    background-color:var(--btn-bg);
+}
+
+.portada_titulo P{
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color:var(--btn-bg);
+}
+
+
+.portada_botones_ing , .portada_botones_reg{
+    background-color:var(--fire);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+
+/* Seccion benefits / about  */
+
+.benefits_info , h2{
+    display: flex;
+    text-align: center;
+    background: linear-gradient(330deg, rgba(131,58,180,1) 0%, rgb(255, 27, 27) 53%, rgba(252,176,69,1) 79%);
+} 
+
+.benefits_info{
+    padding:50px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    background: linear-gradient(330deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 53%, rgba(252,176,69,1) 79%);
+    gap:50px;
+}
+.benefits h2 {
+    text-align:right;
+    padding: 20px;
+    padding-left: 510px;   
+    
+}
+
+
+/* Seccion de productos */
+
+.card_titulo h2{
+    text-align:right;
+    padding: 20px;
+    padding-left: 390px;   
+}
+
+.card_subtitulo p{
+    background-color:var(--text-gray);
+    padding: 20px;
+}
+
+.card_producto {
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--btn-bg);
+    padding:25px;
+    gap:10px;
+}
+
+.card_producto img{
+    border-radius: 10px;
+}
+
+/* Seccion Contacto */
+
+.contacto_form {
+    text-align:left;
+    background-color:var(--secondary);
+    padding: 80px;
+}
+
+.contacto_form h3{
+    display: flex;
+    font-size: 250%;
+    text-align: left;
+}
+
+.autor {
+    text-align:center;
+    padding: 30px;
+    background: linear-gradient(330deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 53%, rgba(252,176,69,1) 79%);
+    gap:50px;
+}

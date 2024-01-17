@@ -1,0 +1,27 @@
+@media (max-width:390px) {
+
+/* iphone 12pro*/
+
+    .menu-toggle{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        width: 100%;
+    }
+    .menu ul{
+        flex-direction: column;
+        display:flex;
+        width: 100%;
+        padding-right: 150px;
+
+    }
+
+    #menu-toggle:checked + .nav-list {
+        display: flex;
+      }
+
+
+        
+
+}
